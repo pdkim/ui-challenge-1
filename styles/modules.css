@@ -1,5 +1,5 @@
 #a {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 #c {
@@ -38,3 +38,49 @@
   float: left;
 }
 
+footer p {
+  display: none;
+}
+
+@media only screen and (min-width: 481px) {
+  body {
+    width: 960px;
+    height: 768px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  #b {
+    width: 200px;
+    height: 600px;
+    float: left;
+  }
+
+  .group1 {
+    width: 380px;
+    height: 200px;
+    float: left;
+  }
+
+  .group2 {
+    width: 760px;
+    height: 250px;
+    display: inline-block;
+  }
+
+  #e, #f, #g, #h {
+    width: 25%;
+  }
+
+  footer {
+    width: 760px;
+    height: 150px;
+    float: left;
+  }
+
+  footer p {
+    display: block;
+  }
+}
