@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  height: 75px;
+}
+
+#b {
+  background-color: aqua;
+  width: 100%;
+  height: 150px;
+}
+
+.group1 {
+  width: 100%;
+  height: 125px;
+}
+
+.group2 {
+  width: 100%;
+  height: 500px;
+  /* display: inline-block; */
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+}
