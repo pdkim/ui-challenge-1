@@ -1,0 +1,10 @@
+body {
+  width: 468px;
+  height: 768px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+}

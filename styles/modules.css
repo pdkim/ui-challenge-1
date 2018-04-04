@@ -1,0 +1,87 @@
+#a {
+  background-color: lightblue;
+}
+
+#c {
+  background-color: brown;
+}
+
+#d {
+  background-color: blueviolet;
+}
+
+#e {
+  background-color: yellow;
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+#f {
+  background-color: green;
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+#g {
+  background-color: red;
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+#h {
+  background-color: pink;
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+footer p {
+  display: none;
+}
+
+@media only screen and (min-width: 481px) {
+  body {
+    width: 960px;
+    height: 768px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  #b {
+    width: 200px;
+    height: 600px;
+    float: left;
+  }
+
+  .group1 {
+    width: 380px;
+    height: 200px;
+    float: left;
+  }
+
+  .group2 {
+    width: 760px;
+    height: 250px;
+    float: left;
+  }
+
+  #e, #f, #g, #h {
+    width: 25%;
+  }
+
+  footer {
+    width: 760px;
+    height: 150px;
+    float: left;
+  }
+
+  footer p {
+    display: block;
+    float: left;
+  }
+}
