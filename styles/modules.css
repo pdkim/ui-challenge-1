@@ -67,7 +67,7 @@ footer p {
   .group2 {
     width: 760px;
     height: 250px;
-    display: inline-block;
+    float: left;
   }
 
   #e, #f, #g, #h {
@@ -82,5 +82,6 @@ footer p {
 
   footer p {
     display: block;
+    float: left;
   }
 }

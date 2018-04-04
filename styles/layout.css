@@ -1,7 +1,6 @@
 header {
   width: 100%;
   height: 75px;
-  /* border: 1px solid black; */
 }
 
 #b {
@@ -18,7 +17,6 @@ header {
 .group2 {
   width: 100%;
   height: 500px;
-  /* display: inline-block; */
 }
 
 footer {
